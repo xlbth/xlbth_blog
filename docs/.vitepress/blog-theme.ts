@@ -157,7 +157,7 @@ const blogTheme = getThemeConfig({
       {
         "path": "https://model.oml2d.com/Pio/model.json",
         "scale": 0.3,
-        "position": [0, 50],
+        "position": [0, 30],
         "stageStyle": {
           "height": 300,
         }
