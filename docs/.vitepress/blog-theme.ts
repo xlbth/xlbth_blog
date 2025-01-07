@@ -156,16 +156,38 @@ const blogTheme = getThemeConfig({
     models: [
       {
         "path": "https://model.oml2d.com/Pio/model.json",
-        "scale": 0.4,
+        "scale": 0.3,
         "position": [0, 50],
         "stageStyle": {
-          "height": 300
+          "height": 300,
         }
       },
       {
-        path: 'https://model.oml2d.com/haruto/haruto.model.json',
-        position: [0, 60],
-      }
+        path: 'https://model.oml2d.com/Senko_Normals/senko.model3.json',
+        position: [-10, 20]
+      },
+      {
+        path: 'https://model.oml2d.com/HK416-1-normal/model.json',
+        position: [0, 70],
+        scale: 0.06,
+        stageStyle: {
+          height: 350
+        }
+      },
+      {
+        "path": "https://model.oml2d.com/shizuku/shizuku.model.json",
+        "scale": 0.15,
+        "volume": 0,
+        "position": [20, 70],
+        "stageStyle": {
+          "height": 300,
+          "width": 300
+        }
+      },
+      // {
+      //   path: 'https://model.oml2d.com/haruto/haruto.model.json',
+      //   position: [0, 60],
+      // }
     ]
   },
 })
