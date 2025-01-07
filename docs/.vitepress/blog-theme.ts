@@ -159,19 +159,24 @@ const blogTheme = getThemeConfig({
         "scale": 0.3,
         "position": [0, 30],
         "stageStyle": {
-          "height": 300,
+          "height": 200,
+          "width": 300
         }
       },
       {
         path: 'https://model.oml2d.com/Senko_Normals/senko.model3.json',
-        position: [-10, 20]
+        position: [0, 20],
+        stageStyle: {
+          width: 300
+        }
       },
       {
         path: 'https://model.oml2d.com/HK416-1-normal/model.json',
         position: [0, 70],
         scale: 0.06,
         stageStyle: {
-          height: 350
+          height: 350,
+          width: 300
         }
       },
       {
