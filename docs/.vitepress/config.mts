@@ -59,6 +59,7 @@ export default defineConfig({
         text: '项目汇总',
         items: [
           { text: 'TS码流解析工具', link: '/project-summary/TS码流解析工具.md' },
+          { text: 'dvb调试前控版总结', link: '/project-summary/dvb调试前控版总结.md' }
         ]
       },
       {
