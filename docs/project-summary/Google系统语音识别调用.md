@@ -23,7 +23,7 @@ if (ContextCompat.checkSelfPermission(mContext, Manifest.permission.RECORD_AUDIO
 }
 ```
 
-直接调用我写的工具类。
+调用下面的工具类。
 
 ```java
 package com.tosmart.commonview.utils;
