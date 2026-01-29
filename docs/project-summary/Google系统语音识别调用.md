@@ -269,3 +269,28 @@ mSpeechRecognitionUtils.doSpeechRecognition();
 ```
 
 通过接口回调得到对应的结果。
+
+
+
+## 相关代码实现
+
+1. 接口方法实现
+
+   ![image-20260128155346652](./Google系统语音识别调用.assets/image-20260128155346652.png)
+
+   ![image-20260128155431010](./Google系统语音识别调用.assets/image-20260128155431010.png)
+
+2. 初始化
+
+   ![image-20260128155636699](./Google系统语音识别调用.assets/image-20260128155636699.png)
+
+   可使用的判断条件
+
+   1. 语言识别可用
+   2. 遥控器是蓝牙语音遥控器
+   3. 是我们在`commom.cfg`文件里配置的`OTH_LAUNCHER_BLUETOOTH_LIST`属性设置的蓝牙遥控器
+
+3. 调用
+
+![image-20260128155201103](./Google系统语音识别调用.assets/image-20260128155201103.png)
+
